@@ -1,16 +1,18 @@
-READ ME TEMPLATE HW9
-  # README TEMPLATE
-  This template allows user to quickly generate a README.md file for their project
+
+  # TITLE GOES HERE
+  Description of project goes here
   ## Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
     - [Credits](#credits)
     - [License](#license)
+    - [Contributing](#contributing)
     - [Tests](#tests)
   ## Installation
   ## Usage
   ## Credits
   ## License
+  ## Contributing
   ## Tests
   ## Questions?
 

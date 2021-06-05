@@ -20,13 +20,16 @@ function generateMarkdown(data) {
   ## Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Credits](#credits)
+
     - [License](#license)
+    - [Contributing](#contributing)
+    - [Credits](#credits)
     - [Tests](#tests)
   ## Installation
   ## Usage
-  ## Credits
   ## License
+  ## Contributing
+  ## Credits
   ## Tests
   ## Questions?
 
