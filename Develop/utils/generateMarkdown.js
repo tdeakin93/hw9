@@ -16,6 +16,15 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `READ ME TEMPLATE HW9
   # ${data.title}
+  ## Table of Contents
+  ## Installation
+  ## Usage
+  ## License
+  ## Contributing
+  ## Tests
+  ## Questions?
+
+  
 
 `;
 }
