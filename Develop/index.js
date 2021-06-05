@@ -40,20 +40,25 @@ const questions = [
       return "How-to-Use information goes here - examples recommended";
     },
   },
-
   {
     //change to list of options
-    type: "NOTinput",
+    type: "list",
     name: "license",
-    message: "What steps are required to install this project?:",
-    default() {
-      return "Description of project goes here";
+    message: "What license does this project use?",
+    choices: [
+        'MIT',
+        'OPTION 2',
+        'OPTION 3',
+    ],
+        filter(val) {
+      return val.toUpperCase();
     },
   },
   {
     type: "input",
     name: "contributing",
-    message: "If other developers can contribute to your application or package, what are their guidelines for doing so? *NOTE: this is optional but reccomended",
+    message:
+      "If other developers can contribute to your application or package, what are their guidelines for doing so? *NOTE: this is optional but recommended",
     default() {
       return "Information on how to contribute goes here";
     },
@@ -61,7 +66,8 @@ const questions = [
   {
     type: "input",
     name: "credits",
-    message: "Acknowledge and/or thank your collaborators, including third party assets and/or tutorials:",
+    message:
+      "Acknowledge and/or thank your collaborators, including third party assets and/or tutorials:",
     default() {
       return "Credit where credit is due";
     },
@@ -69,9 +75,18 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "What tests are best used for this application, and how do users do so?",
+    message:
+      "What tests are best used for this application, and how do users do so?",
     default() {
       return "Information on test goes here";
+    },
+  },
+  {
+    type: "input",
+    name: "name",
+    message: "What is your name?",
+    default() {
+      return "*~NaMe~*";
     },
   },
   {
@@ -93,7 +108,7 @@ const questions = [
   {
     //in addition to assn - add link to deployed application
     type: "input",
-    name: "link",
+    name: "deployed_link",
     message: "What is an active link to your deployed application?",
     default() {
       return "*~LiNk~*";
@@ -113,7 +128,12 @@ function init() {
         .prompt(questions)        
         .then((answers) => {
             console.log(answers)
+/////////////// FOR IF LIST ANSWERS DON'T ANSWER - IN PROGRESS
+//               .then((answers) => {
+//     console.log(JSON.stringify(answers, null, '  '));
+//   });
             writeToFile("README.md", generateMarkdown(answers))
+            
         })
 }
 
