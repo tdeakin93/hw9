@@ -1,6 +1,6 @@
 READ ME TEMPLATE HW9
-  # README generator
-  This application will generate a template for users that 
+  # README TEMPLATE
+  This template allows user to quickly generate a README.md file for their project
   ## Table of Contents
     - [Installation](#installation)
     - [Usage](#usage)
