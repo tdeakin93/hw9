@@ -1,5 +1,5 @@
 
-# D
+# TITLE GOES HERE
 Description of project goes here
 
 ## Table of Contents
@@ -17,6 +17,7 @@ Installation instructions go here
 How-to-Use information goes here - examples recommended
 
 ## License
+undefined;
 Licensed under the MIT license
 
 ## Contributing
@@ -26,7 +27,7 @@ Information on how to contribute goes here
 Credit where credit is due
 
 ## Tests
-Information on test goes here
+Information on tests goes here
 
 ## Questions?
 The person responsible for this code is: *~NaMe~* and their github username is: *~UsErNaMe~*

@@ -1,7 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+  if (license === 'MIT') {
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    console.log('this is working');
+  } else if (license === 'Apache') {
+    console.log('apache is working');
+  } else if (license === 'GPLv2') {
+    console.log('this works too');
+  } else if (license === 'Other') {
+    console.log('What is it')
+  }
 }
 
 // TODO: Create a function that returns the license link
@@ -33,6 +42,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
+${renderLicenseBadge.data.license};
 Licensed under the ${data.license} license
 
 ## Contributing
