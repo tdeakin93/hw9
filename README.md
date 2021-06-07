@@ -17,10 +17,12 @@ This project allows the user to use the command line to generate a README.md fil
 
 ## Usage
   In order to use this application, the user must use node to run the index.js file. In doing so, the user will see a series of prompts in their terminal to which they can respond. In doing so, a template README file will be generated using input data.
+  
+  Link to video on usage: [https://drive.google.com/file/d/11d9mVDaxb9zqVRrpvkCcG-_0_1eS9Zik/view](https://drive.google.com/file/d/11d9mVDaxb9zqVRrpvkCcG-_0_1eS9Zik/view)
 <!-- I'd also like to potentially have this where it opens in the users local word processor....  -->
 
 ## Credits
-  One of the biggest aids in completing this was the helpful people at askBCS in slack, as they were able to help me overcome some hurdles faced.
+  One of the biggest aids in completing this was the helpful people at askBCS in slack, as they were able to help me overcome some hurdles faced, and as always, the instructor and TA were incredibly helpful.
 <!-- Would like to have the optional parts of this read me only display question if user "opts in" like do you want to include a contribution section? If yes, ask question, if no, don't -->
 
 ## License
