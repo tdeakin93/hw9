@@ -158,12 +158,13 @@ function writeToFile(fileName, data) {
 
 // Function to initialize app
 function init() {
-    inquirer
-        .prompt(questions)        
-        .then((answers) => {
-            console.log(answers)
-            writeToFile("./Develop/utils/README.md", generateMarkdown(answers))
-        })
+  inquirer
+    .prompt(questions)
+    .then((answers) => {
+      console.log(answers)
+      writeToFile("./Develop/utils/README.md", generateMarkdown(answers), (err) =>
+        err ? console.log(err) : console.log("Successfully wrote to README.md"));
+    });
 }
 
 // Function call to initialize app
