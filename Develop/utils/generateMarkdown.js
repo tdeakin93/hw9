@@ -42,7 +42,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${renderLicenseBadge};
+${renderLicenseBadge}
 Licensed under the ${data.license} license
 
 ## Contributing
