@@ -12,7 +12,7 @@ This project allows the user to use the command line to generate a README.md fil
   - [License](#license)
 
 ## Installation
-  In order to run this code, the user must have node installed on their device, a
+  In order to run this code, the user must have node installed on their device. 
 <!-- I'd like to run options of a 1 2 3 step process potentially  here -->
 
 ## Usage
@@ -29,5 +29,5 @@ This project allows the user to use the command line to generate a README.md fil
 ## Questions?
   The person responsible for this code is: Tiffany and their github username is: tdeakin93
   Account: [https://github.com/tdeakin93](https://github.com/tdeakin93)
-  If you have questions regarding this application, feel free to contact:i'd rather you didn't 
-  Link to deployed application: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  If you have questions regarding this application, feel free to contact:idontwanttoincludemyemail@inthesehomeworks.com
+  Link to deployed application: https://tdeakin93.github.io/hw9/
