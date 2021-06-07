@@ -1,6 +1,8 @@
 
+
 # TITLE GOES HERE
 Description of project goes here
+
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,8 +19,8 @@ Installation instructions go here
 How-to-Use information goes here - examples recommended
 
 ## License
-undefined;
-Licensed under the MIT license
+
+
 
 ## Contributing
 Information on how to contribute goes here

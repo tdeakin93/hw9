@@ -45,11 +45,48 @@ const questions = [
     name: "license",
     message: "What license does this project use?",
     choices: [
-        'MIT',
-        'Apache',
-        'GPLv2',
-        'Other',
-        'None',
+      {
+        name: "MIT",
+        value: {
+          badge: `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`,
+          link: `[License: MIT](https://opensource.org/licenses/MIT)`,
+        },
+      },
+      {
+        name: "Apache",
+        value: {
+          badge: `[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`,
+          link: `[License: Apache](https://opensource.org/licenses/Apache-2.0)`,
+        },
+      },
+      {
+        name: "GPLv2",
+        value: {
+          badge: `[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`,
+          link: `[License: GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`,
+        },
+      },
+      {
+        name: "GPLv3",
+        value: {
+          badge: `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`,
+          link: `[License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)`,
+        },
+      },
+      {
+        name: "Other",
+        value: {
+          badge: ``,
+          link: ``,
+        },
+      },
+      {
+        name: "None",
+        value: {
+          badge: ``,
+          link: ``,
+        },
+      },
     ],
   },
   {
