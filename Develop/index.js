@@ -47,12 +47,11 @@ const questions = [
     message: "What license does this project use?",
     choices: [
         'MIT',
-        'OPTION 2',
-        'OPTION 3',
+        'APACHE',
+        'GPLv2',
+        'Other',
+        'None',
     ],
-        filter(val) {
-      return val.toUpperCase();
-    },
   },
   {
     type: "input",

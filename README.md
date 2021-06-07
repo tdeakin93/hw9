@@ -30,6 +30,8 @@
     
   ## Questions?
     The person responsible for this code is: Tiffany and their github username is: tdeakin93
+
     Account: [https://github.com/tdeakin93](https://github.com/tdeakin93)
     If you have questions regarding this application, feel free to contact:i'd rather you didn't 
+    
     Link to deployed application: https://www.youtube.com/watch?v=dQw4w9WgXcQ

@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ## Questions?
     The person responsible for this code is: ${data.name} and their github username is: ${data.github_username}
     Account: [https://github.com/${data.github_username}](https://github.com/${data.github_username})
-    If you have questions regarding this application, feel free to contact:${data.email}
+    If you have questions regarding this application, feel free to contact: ${data.email}
     Link to deployed application: ${data.deployed_link}
 `;
 }
