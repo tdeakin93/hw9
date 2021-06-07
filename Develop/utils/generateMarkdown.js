@@ -14,8 +14,7 @@ function renderLicenseBadge(license) {
   // }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link
 function renderLicenseLink(license) {
   // if (license === 'MIT') {
   //   return `[License: MIT](https://opensource.org/licenses/MIT)`;
