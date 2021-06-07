@@ -119,7 +119,7 @@ const questions = [
   {
     type: "input",
     name: "name",
-    message: "What is your name?",
+    message: "What name would you like listed with this project?",
     default() {
       return "*~NaMe~*";
     },
